@@ -13,7 +13,6 @@ body {
     overflow-x: hidden; /*todo conteúdo que ultrapassar os limitesna horiontal será ignorado*/
 }
 
-
 .body-loader {
     align-items: center;
     display: flex;
@@ -74,6 +73,7 @@ header .line{
 .body-loader.hidden {
     animation: fadeOut 1s forwards; /* Inicia a animação fadeOut e mantém o estado final */
   }
+  
   
 
 header {
