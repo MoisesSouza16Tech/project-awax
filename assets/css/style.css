@@ -13,6 +13,69 @@ body {
     overflow-x: hidden; /*todo conteúdo que ultrapassar os limitesna horiontal será ignorado*/
 }
 
+
+.body-loader {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    transform: scale(5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+  }
+
+.body-loader {
+    /* ... outras propriedades ... */
+    transition: 1s; /* Aumente o tempo da transição para 4 segundos */
+  }
+
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #117050;
+    height: 50px;
+    width: 50px;
+  }
+
+  
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+header .line{
+    background-color:#117050;
+    height:30px;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none; /* Para evitar que elementos do carregamento ainda sejam clicáveis após desaparecerem */
+  }
+}
+
+.img-carregamento {
+    position: absolute;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-loader.hidden {
+    animation: fadeOut 1s forwards; /* Inicia a animação fadeOut e mantém o estado final */
+  }
+  
+
 header {
     height: 100px;
     background-color: #000;
