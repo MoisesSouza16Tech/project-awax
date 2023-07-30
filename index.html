@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/icon-logo.png" type="image/x-icon">
+    <title>AWAX</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menu_icon").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            })
+        }
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <div class="logoimg"><img src="assets/images/logo.png" width="80px" height="90px" alt=""></div>
+
+            </div>
+            <div class="menu menu_icon">
+                <img class="menu-opener"src="./assets/icones/menu.png" alt="icone menu">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">OUR PROJECTS</a></li>
+                        <li><a href="">HAPPY CLIENTS</a></li>
+                        <li><a href="">PRICE</a></li>
+                        <li><a href="">SOME ACTS</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="sliders" style="margin-left:0vw; /*ou -100vw ou -200vw*/">
+                <div class="slide">
+                    <div class="slidearea">
+                        <h1>Design is about <br> <span>communication</span> </h1>
+                        <h2>Call Us: +00 0 1234-5678</h2>
+                        
+                            <a href="#" class="button">Get in touch !</a>
+                        
+                    </div>
+                </div><div class="slide">
+                    <div class="slidearea">
+                        <h1>Slide 2 <br>  </h1>
+                        <h2>Call Us: +00 0 1234-5678</h2>
+                        
+                            <a href="#" class="button">Get in touch!</a>
+                        
+                    </div>
+                </div><div class="slide">
+                    <div class="slidearea">
+                        <h1>slide 3 <br> </h1>
+                        <h2>Call Us: +00 0 1234-5678</h2>
+                        
+                            <a href="#" class="button">Get in touch!</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="slider-pointers">
+                <div class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+            </div>
+        </section>
+
+        <section class="default light">
+            <div class="section-title">About us</div>
+            <div class="section-descr">Who we are?</div>
+            <div class="section-body">
+                <div class="section-aboutus">
+                    <div class="section-aboutus--left">
+                        <p>Maecenas sit amet sapien eget lorem placerat semper eu nec quam. Etiam diam orci, lobortis at erat sed, accumsan dignissim neque. Sed sodales volutpat tincidunt. Curabitur iaculis erat vel urna aliquam, id congue mauris viverra. Maecenas ac arcu sed nunc luctus fermentum. Duis et arcu metus. Fusce quis ultrices quam. Nam tempus, arcu in auctor hendrerit, dolor lorem scelerisque felis, ac efficitur dolor lorem ac neque. Quisque at tincidunt metus. Phasellus et posuere urna, tempor molestie sem. Praesent porta lobortis auctor. Aliquam a tempus sem. Curabitur hendrerit eu est eu pretium. Aliquam sollicitudin faucibus arcu at molestie. Vivamus non orci a augue ornare sodales ullamcorper faucibus nisl.</p>
+                        <br> 
+
+                        <a href="#" class="button">Learn more</a>
+                    </div>
+                    <div class="section-aboutus--right">
+                        <video src="assets/media/video.mp4" type="video/mp4" controls>
+                            Seu navegador não supoerta este vídeo!
+                        </video>
+                        <p>Video by <a href="https://pixabay.com/users/sahn_vit-6616497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=21985" target="_blank" >Governo SP</a> from <a href="https://www.youtube.com/watch?v=tMnxb2Upc4w&ab_channel=GovernodoEstadodeS%C3%A3oPaulo" target="_blank">Youtube</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default dark">
+            <div class="section-title">Services</div>
+            <div class="section-descr">Services that we provide</div>
+            <div class="section-body">
+                <div class="section-services">
+                    <div class="section-service">
+                        <img src="./assets/icones/medalha.png" alt="ícone medalha">
+                        <h4 class="service">High quality design</h4>
+                        <p class="descrition">Praesent metus urna, feugiata placerat elementum</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="./assets/icones/estrela.png" alt="ícone estrela">
+                        <h4 class="service">Modern design</h4>
+                        <p class="descrition">Praesent metus urna, feugiata placerat elementum</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="./assets/icones/relogio.png" alt="ícone relógio">
+                        <h4 class="service">Regular updates</h4>
+                        <p class="descrition">Praesent metus urna, feugiata placerat elementum</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="./assets/icones/balao.png" alt="ícone balão">
+                        <h4 class="service">Fast and free support</h4>
+                        <p class="descrition">Praesent metus urna, feugiata placerat elementum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="default light">
+            <div class="section-title">Our projects</div>
+            <div class="section-descr">What we create</div>
+            <div class="section-body">
+                <div class="section-projets">
+                    <div class="section-projets--filters">
+                        <ul>
+                            <li>All</li>
+                            <li class="active">Photos</li>
+                            <li>Branding</li>
+                            <li>Adverts</li>
+                            <li>Development</li>
+                            <li>Misc</li>
+                        </ul>
+                    </div>
+                    <div class="section-projects--photos">
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>About</h5>
+                                <p>Praesent metus urna feugia</p>
+                            </div>
+                            <img src="./assets/media/photo2.jpg" alt="mulher loira">
+
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo3.jpg" alt="taça de vinho">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo4.jpg" alt="homem de perfil">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo5.jpg" alt="homem">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo6.jpg" alt="desktop">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo7.jpg" alt="fotógrafo">
+                            </div></div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo8.jpg" alt="sabonetes">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo9.jpg" alt="planer e caneta">
+                            </div></div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo10.jpg" alt="casal de dançarinos">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>
+                                </div>
+                                <img src="./assets/media/photo11.jpg" alt="convite sobre a mesa">
+                            </div>
+                        </div>
+                        <div class="section-projetcs--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>About</h5>
+                                    <p>Praesent metus urna feugia</p>                                       
+                                </div>
+                                <img src="./assets/media/photo12.jpg" alt="mulher com óculos de sol e cabelo azul">
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="button">More projects</a>
+
+                </div>
+            </div>
+        </section>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <section class="default dark bg-team" style="height: 380px; border-bottom: solid 2px #3d3d3d;">
+            <div class="section-team-area">
+                <div class="section-title">OUR BRANCHES</div>
+                <div class="section-descr" style="margin: 12px 0 9px 0;">All Over Places</div>
+                <div class="container-carrousel">
+                    <div class="carousel">
+                      <div class="carousel__face"><span>Descubra</span></div>
+                      <div class="carousel__face"><span>maravilhas</span></div>
+                      <div class="carousel__face"><span>em</span></div>
+                      <div class="carousel__face"><span>lugares</span></div>
+                      <div class="carousel__face"><span>incríveis</span></div>
+                      <div class="carousel__face"><span>e</span></div>
+                      <div class="carousel__face"><span>famosos</span></div>
+                      <div class="carousel__face"><span>do</span></div>
+                      <div class="carousel__face"><span>mundo.</span></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section class="default dark bg-team">
+            <div class="section-team-area">
+                <div class="section-title">Our team</div>
+                <div class="section-descr">Our co-workers</div>
+                <div class="section-body">
+                    <div class="section-team">
+                        <div class="sliders" style="margin-left:0vw; /*ou -100vw ou -200vw*/">
+                            <div class="slide">
+                                <div class="slidearea">
+                                    
+                                    <img class="section-team--avatar" src="assets/complementos/mulher1.png" alt="rosto de mulher">
+                                    <div class="section-team--name">Ane Clare</div>
+                                    <div class="section-team--role">Front End Programmer</div>
+                                    <div class="section-team--social">
+                                        <a href="https://www.linkedin.com/" target="_blank"><img src="assets/icones/linkedin.png" alt="logo linkedin"></a>
+                                        <a href="https://br.pinterest.com/" target="_blank"><img src="assets/icones/pinterest.png" alt="logo pinterest"></a>
+                                        <a href="https://instagram.com/"><img src="assets/icones/instagram.png" alt="logo instagram" width="19px"></a><a href="https://www.facebook.com/" target="_blank"><img src="assets/icones/facebook.png" alt="logo facebook"></a>
+                                        <a href="https://twitter.com/" target="_blank"><img src="assets/icones/twitter.png" alt="logo twitter"></a>
+                                    </div>
+                                    
+                                </div>
+                            </div><div class="slide">
+                                <div class="slidearea">
+                                    
+                                    <img  class="section-team--avatar"  src="assets/complementos/homem1.png" alt="rosto de homem">
+                                    <div class="section-team--name">Moses Vince</div>
+                                    <div class="section-team--role">Back End Programmer</div>
+                                    <div class="section-team--social">
+                                        <a href="https://www.linkedin.com/" target="_blank"><img src="assets/icones/linkedin.png" alt="logo linkedin"></a>
+                                        <a href="https://br.pinterest.com/" target="_blank"><img src="assets/icones/pinterest.png" alt="logo pinterest"></a>
+                                        <a href="https://instagram.com/"><img src="assets/icones/instagram.png" alt="logo instagram" width="19px"></a><a href="https://www.facebook.com/" target="_blank"><img src="assets/icones/facebook.png" alt="logo facebook"></a>
+                                        <a href="https://twitter.com/" target="_blank"><img src="assets/icones/twitter.png" alt="logo twitter"></a>
+                                    </div>
+
+                                </div>
+                            </div><div class="slide">
+                                <div class="slidearea">
+
+                                    <img  class="section-team--avatar"  src="assets/complementos/mulher2.png" alt="rosto de mulher">
+                                    <div class="section-team--name">Julie Araujo</div>
+                                    <div class="section-team--role">Database administrator</div>
+                                    <div class="section-team--social">
+                                        <a href="https://www.linkedin.com/" target="_blank"><img src="assets/icones/linkedin.png" alt="logo linkedin"></a>
+                                        <a href="https://br.pinterest.com/" target="_blank"><img src="assets/icones/pinterest.png" alt="logo pinterest"></a>
+                                        <a href="https://instagram.com/"><img src="assets/icones/instagram.png" alt="logo instagram" width="19px"></a><a href="https://www.facebook.com/" target="_blank"><img src="assets/icones/facebook.png" alt="logo facebook"></a>
+                                        <a href="https://twitter.com/" target="_blank"><img src="assets/icones/twitter.png" alt="logo twitter"></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-pointers">
+                        <div class="pointer active"></div>
+                        <div class="pointer"></div>
+                        <div class="pointer"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="default light happy-clients">
+            <div class="section-clients-area">
+                <div class="section-title">Happy clients</div>
+                <div class="section-descr">Client reviews</div>
+                <div class="section-body">
+                    <div class="section-clients">
+                        <div class="sliders" style="margin-left:0vw; /*ou -100vw ou -200vw*/">
+                            <div class="slide">
+                                <div class="slidearea">
+                
+                                    <img class="section-clients--avatar" src="assets/complementos/homem2.png" alt="rosto de mulher">
+                                    <div class="section-clients--name">John Doe</div>
+                                    <div class="section-clients--role">Head of PR Departament at Boeing</div>
+                                    <div class="section-clients--review">
+                                        <img class="section-clients--comas" src="assets/icones/quote.png" alt="rosto de mulher"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis eget sem tincidunt eleifend. Vestibulum lectus nisl, laoreet in massa sit amet, consequat euismod urna. Nunc in sem sit amet quam egestas facilisis. Vestibulum at ipsum mattis, sodales dui ut, mollis velit?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-pointers">
+                        <div class="pointer active"></div>
+                        <div class="pointer"></div>
+                        <div class="pointer"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="default light partners">
+            <div class="partners-logos">
+                <div class="client"><img src="assets/complementos/empresa1.png" alt="logo empresa parceira"></div>
+                <div class="client"><img src="assets/complementos/empresa2.png" alt="logo empresa parceira"></div>
+                <div class="client"><img src="assets/complementos/empresa3.png" alt="logo empresa parceira"></div>
+                <div class="client"><img src="assets/complementos/empresa4.png" alt="logo empresa parceira"></div>
+                <div class="client"><img src="assets/complementos/empresa5.png" alt="logo empresa parceira"></div>
+                <div class="client"><img src="assets/complementos/empresa6.png" alt="logo empresa parceira"></div>
+            </div>
+        </section>
+        <section class="default light price">
+            <div class="section-price-area">
+                <div class="section-title">Price</div>
+                <div class="section-descr">Pricing table</div>
+                <div class="section-body">
+                    <div class="section-price">
+                        <div class="tags">
+                            <div class="tag">
+                                <div class="tagarea">
+                                    
+                                    <div class="section-price--plan">Express</div>
+                                    <div class="section-price--price">$ 9.99 <p>/ month</p> 
+                                    </div>
+                                    <div class="section-price--plandescr">
+                                        <p class="plandescr">Tracking Issues</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Add bugs through email</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Notifications</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Time tracking</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Custom views</p>
+                                        <a href="#" class="button">CHOOSE</a>
+                                    </div>
+                                </div>  
+                            </div> 
+
+                            <div class="tag">
+                                <div class="tagarea">
+                                    
+                                    <div class="section-price--plan">Standart</div>
+                                    <div class="section-price--price">$ 14.99 <p>/month</p> 
+                                    </div>
+                                    <div class="section-price--plandescr">
+                                        <p class="plandescr">Tracking Issues</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Add bugs through email</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Notifications</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Time tracking</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Custom views</p>
+                                        <a href="#" class="button">CHOOSE</a>
+                                    </div>                                    
+                                    
+                                </div>                         
+                            </div>
+
+                            <div class="tag">
+                                <div class="tagarea">
+                                    
+                                    <div class="section-price--plan">Luxe</div>
+                                    <div class="section-price--price">$ 19.99 <p>/month</p> 
+                                    </div>
+                                    <div class="section-price--plandescr">
+                                        <p class="plandescr">Tracking Issues</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Add bugs through email</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Notifications</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Time tracking</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Custom views</p>
+                                        <a href="#" class="button">CHOOSE</a>
+                                    </div>                                    
+                                    
+                                </div>                         
+                            </div>
+
+                            <div class="tag">
+                                <div class="tagarea">
+                                    
+                                    <div class="section-price--plan">Premium</div>
+                                    <div class="section-price--price">$ 24.99 <p>/month</p> 
+                                    </div>
+                                    <div class="section-price--plandescr">
+                                        <p class="plandescr">Tracking Issues</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Add bugs through email</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Notifications</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Time tracking</p>
+                                        <p class="bar"></p>
+                                        <p class="plandescr">Custom views</p>
+
+                                        <a href="#" class="button active">CHOOSE</a>
+
+                                    </div>                                    
+                                    
+                                </div>                         
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="default light premium">
+            <div class="section-premium-area">
+                <div class="section-title">Premium</div>
+                <div class="section-descr">Even more features available</div>
+                <div class="section-body">
+                    <div class="section-premium">
+                        <div class="features">
+
+                            <div class="feature-left">
+                                <div class="featurearea-box">
+                                    <div class="box"><img src="./assets/complementos/livros.png" alt=""></div>
+
+                                </div>
+                            </div>
+
+                            <div class="feature-right">
+                                <div class="feature"> 
+                                    <div class="check"><img src="./assets/icones/check.png" alt="icone check"></div>
+                                    <div class="featurearea">
+                                        
+                                        <div class="feature-title">First Feature</div>
+                                        <div class="feature-descr">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Ipsum voluptates eos iste harum unde sit temporibus eveniet!</p>
+                                            <p>- Feature One</p>
+                                            <p>- Feature Two</p>
+                                            <p>- Feature Three</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>                                
+
+                                <div class="feature">
+                                    <div class="check"><img src="./assets/icones/check.png" alt="icone check"></div>
+                                    <div class="featurearea">
+                                        
+                                        <div class="feature-title">Second Feature</div>
+                                        <div class="feature-descr">
+                                            <p>Nihil nisi temporibus autem quidem!</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="feature">
+                                    <div class="check"><img src="./assets/icones/check.png" alt="icone check"></div>
+                                    <div class="featurearea">
+                                        
+                                        <div class="feature-title">Second Feature</div>
+                                        <div class="feature-descr">
+                                            <p>Nihil nisi temporibus autem quidem!</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="feature-bar"></div>
+
+
+                    </div>
+                    <div class="slider-pointers">
+                        <div class="pointer active"></div>
+                        <div class="pointer"></div>
+                        <div class="pointer"></div>
+                    </div>
+                    
+                    <div class="divbutton">
+                        <a class="button" href="#">Get in touch</a>
+                    </div>
+                    
+
+                </div>
+                
+            </div>
+            
+        </section>
+        <section class="default dark facts">
+            <div class="section-facts-area">
+                <div class="section-title">Some facts</div>
+                <div class="section-descr">About our work</div>
+                <div class="section-body">
+                    <div class="section-facts">
+                        <div class="section-facts--area">
+                            <div class="fact-number">1000</div>
+                            <div class="fact-bar"></div>
+                            <div class="fact-title">Design projects released</div>
+                            <div class="fact-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </div>
+                        </div>
+
+                        <div class="section-facts--area">
+                            <div class="fact-number">900</div>
+                            <div class="fact-bar"></div>
+                            <div class="fact-title">Photos</div>
+                            <div class="fact-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </div>
+                        </div>
+
+                        <div class="section-facts--area">
+                            <div class="fact-number">500</div>
+                            <div class="fact-bar"></div>
+                            <div class="fact-title">Marketing ideas</div>
+                            <div class="fact-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </div>
+                        </div>
+
+                        <div class="section-facts--area">
+                            <div class="fact-number">100</div>
+                            <div class="fact-bar"></div>
+                            <div class="fact-title">Exhibitions</div>
+                            <div class="fact-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default light socials ">
+            <div class="section-body--socials">
+                <div class="section-body--socials-tell">
+                    <a href=""><img src="assets/icones/share.png" alt="icone compartilhe"></a>
+                    <div class="text">Tell about us:</div>
+                </div>
+                <div class="section-body--socials-icon">
+                    <a href="https://instagram.com/"target="_blank"><img src="assets/icones/instagram-logo.png" alt="logo instagram"></a>
+                    <div class="text-n">1250</div>
+                </div>
+                <div class="section-body--socials-icon">
+                    <a href="https://www.facebook.com/"target="_blank"><img src="assets/icones/facebook-logo.png" alt="logo facebook"></a>
+                    <div class="text-n">1025</div>
+                </div>
+                <div class="section-body--socials-icon">
+                    <a href="https://twitter.com/"target="_blank"><img src="assets/icones/twitter-logo.png" alt="logo twitter"></a>
+                    <div class="text-n">153</div>
+                </div>
+                <div class="section-body--socials-icon">
+                    <a href="https://www.linkedin.com/"target="_blank"><img src="assets/icones/linkedin-logo.png" alt="logo linkedin"></a>
+                    <div class="text-n">4012</div>
+                </div>
+                <div class="section-body--socials-icon">
+                    <a href="https://br.pinterest.com/"target="_blank"><img src="assets/icones/pinterest-logo.png" alt="logo pinterest"></a>
+                    <div class="text-n">25</div>
+                </div>
+            </div>
+        </section>
+        <section class="default light contactus">
+            <div class="section-title">Contact us</div>
+            <div class="section-descr">Our agency located in melbourn, australia</div>
+            <div class="section-body--contactus">
+                <div class="form">
+                    <form action="#" method="get">
+                        <div class="name-email">
+                            <div class="name">
+                                <label for="name">Name</label>
+                                <input type="text" id="fname">
+                            </div>
+                    
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="email" id="email"><br>
+                            </div>
+                        </div>
+                        <div class="subject">
+                            <label for="text">Subject</label>
+                            <input type="text" id="subject"><br>
+                        </div>
+                        <div class="message">
+                            <label for="text">Message</label>
+                            <input type="text" id="msg"><br>
+                        </div><br>
+
+                        <div class="button-contactus"><a class="button" href="#">Send Message</a></div>
+                    </div>                       
+                    </form>                    
+                </div>
+            </div>
+        </section>
+        <section class="default light map">
+            <iframe 
+            title="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.534495310369!2d-46.4155728152691!3d-23.572622810668985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce659ca591b7a9%3A0xacc2483060dcb157!2sGuaianases%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1690691626103!5m2!1spt-BR!2sbr"
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+            </iframe>
+                
+            <div class="map-address">
+                <div class="map--area-item--img">
+                    <img src="assets/icones/carta.png" alt="">
+                </div>
+                <a href="#">Avenida Salvador Gianetti 601 - Guaianases - SP, Brazil</a><br>
+                <div class="map--area-item--img">
+                    <img src="assets/icones/localizacao.png" alt="">
+                </div>
+                <a href="#">R. Prof. João de Lima Paiva 65 - Guaianases - SP, Brazil</a><br>
+                <div class="map--area-item--img">
+                    <img src="assets/icones/telefone.png" alt="">
+                </div>
+                <a href="#">+55 11 98765 4321</a><br>
+                <div class="map--area-item--img">
+                    <img src="assets/icones/arroba.png" alt="">
+                </div>
+                <a href="mailto:awaxmoises@gmail.com">awaxmoises@gmail.com</a><br>
+                <div class="map--area-item--img">
+                    <img src="assets/icones/web.png" alt="">
+                </div>
+                <a href="www.envato.com">www.hipe.com</a>
+            </div>
+        </section>        
+
+    </main>
+
+    <footer>
+<div class="footer">
+    <div class="footer socials">
+        <div>
+        <a href="https://www.facebook.com/"target="_blank"><img src="assets/icones/facebook-logo.png" alt="logo facebook"></a>
+        </div><div>
+        <a class="active"href="https://twitter.com/"target="_blank"><img src="assets/icones/twitter-logo.png" alt="logo twitter"></a>
+        </div><div>
+        <a href="https://www.linkedin.com/"target="_blank"><img src="assets/icones/linkedin-logo.png" alt="logo linkedin"></a>
+        </div><div>
+        <a href="https://youtube.com/"target="_blank"><img src="assets/icones/youtube_icon.png" alt="logo youtube"></a></div>
+        <div><a href="https://br.pinterest.com/"target="_blank"><img src="assets/icones/pinterest-logo.png" alt="logo pinterest"></a>
+        
+        </div>
+    </div>
+
+    <div class="footer descr">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ducimus perspiciatis eveniet odit aliquam repellat voluptates aliquid, natus, esse voluptate pariatur totam cumque distinctio recusandae praesentium dolorum aperiam consectetur voluptatibus.
+    </div>
+    <div class="footer subscribe">
+        
+        <div class="footer-email">email to subscribe</div>
+        <div class="footer--bar"></div>
+        <a class="button" href="#">Subscribe</a>
+    
+    </div>
+    </div>
+
+    <div class="footer_copy">
+        <div class="copy_cor">&copy; Copyright </div>- Moisés Projects - Para fins acadêmicos
+    </div>
+    </footer>
+    
+</body>
+</html>
