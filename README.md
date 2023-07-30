@@ -1,2 +1,4 @@
 # project-awax
-Projeto realizado para prática
+Projeto realizado para prática e exercício.
+ :computer:
+  :wink:
